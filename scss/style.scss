@@ -1,0 +1,197 @@
+@import "./header/header";
+@import "./main/main";
+@import "./footer/footer";
+@mixin sizes ($width, $height){
+    width: $width;
+    $height: $height;
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .banner__img {
+        width: 100%;
+        height: 630px;
+    }
+
+    .section__we__article__img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .main__cosmetics {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        .main__cosmetics__img {
+            height: 250px;
+            width: 150px;
+
+        }
+        .main__cosmetics__img__txt{
+            width: 150px;
+            align-items: center;
+        }
+    }
+    .contacto{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .map{
+        display: none;
+    }
+    .contactodiv{
+        padding-left: 0px;
+    }
+
+    .img__txt img{
+        float: left;
+        font-size: 10px;
+    }
+    .img__txt{
+        display: block;
+        float: left;
+        font-size: 10px;
+    }
+    .section__we__article__txt{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .banner__img__txt {
+        top: 65%;
+    }
+    .contacto{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) { 
+    .img__txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__we__article__img {
+        width: 300px;
+        height: 400px;
+    }
+    .main__cosmetics {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        .main__cosmetics__img {
+            height: 310px;
+            width: 210px;
+        }
+        .main__cosmetics__img__txt{
+            width: 150px;
+            align-items: center;
+        }
+    }
+        .we{
+            padding-bottom: 30px;
+        }
+        .contactodiv{
+            padding-left: 30px;
+        }
+        .section__we__article__txt{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+    }
+    .section__we__article__txt{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    .banner__img__txt {
+        top: 65%;
+    }
+    
+    .section__we__article__txt{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .banner__img__txt {
+        top: 50%;
+    }
+    .img__txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .we{
+        padding-bottom: 30px;
+    }
+    .section__we__article__img {
+        width: 400px;
+        height: 500px;
+    }
+    .section__we__article__txt{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .main__cosmetics {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        .main__cosmetics__img {
+            height: 350px;
+            width: 250px;
+        }
+        .main__cosmetics__img__txt{
+            width: 280px;
+            align-items: center;
+        }
+    }
+    }
+
+
+@media (min-width: 1101px) {
+    .banner__img__txt {
+        top: 50%;
+    }
+    .img__txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__cosmetics{
+        padding-top: 20px;
+    }
+    .main__cosmetics__img {
+        height: 350px;
+        width: 250px;
+    }
+    .section__we__article__img {
+        width: 400px;
+        height: 500px;
+    }
+    .section__we__article__txt{
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+}

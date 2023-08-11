@@ -1,0 +1,35 @@
+.map{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+.contactodiv{
+    width: 900px;
+    padding-left: 80px;
+}
+.contacto{
+    display: flex;
+    padding-top: 70px;
+} 
+.col-auto{
+    padding-top: 7px;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+}
+.redes__txt{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.copyright__txt{
+    display: flex;
+    justify-content: center;
+}
