@@ -5,6 +5,44 @@
     width: $width;
     $height: $height;
 }
+    @media screen and (min-width: 350px) and (max-width: 500px){
+        .banner__img__txt{
+            font-size: 3rem;
+        }
+        .section__we__article__img{
+            width: 330px;
+        }
+        .section__we__article__txt{
+            padding-left: 10px;
+        }
+        .main__cosmetics {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: center;
+        }
+        .main__cosmetics__img{
+            width: 250px;
+            height: 400px;
+            align-items: center;
+        }
+        .main__cosmetics__img__txt{
+            width: 200px;
+            padding-left: 20px;
+        }
+        .contacto{
+            display: block;
+            padding-top: 40px;
+        }
+        .map{
+            display: none;
+        }
+        .contactodiv{
+            padding-left: 10px;
+            width: 325px;
+        }
+    }
 
 @media screen and (min-width: 500px) and (max-width: 700px) {
     .banner__img {
@@ -193,5 +231,9 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
         line-height: 1.5;
+    }
+    .iframe{
+        width: 350px;
+        height: 300px;
     }
 }
